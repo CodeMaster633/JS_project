@@ -1,0 +1,65 @@
+.Nav {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(53, 11, 225) 0%,
+    rgb(55, 174, 211) 100%
+  );
+
+  margin: 0 auto 0;
+  padding-top: 0px;
+  height: 80px;
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+
+#header h1 {
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+.MenuList {
+  /* Menu punkter og afstand */
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  column-count: 3;
+  column-gap: 100px;
+  list-style: none;
+  text-align: right;
+
+  /* Menu centreret */
+  display: flex;
+
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Nav.MenuList {
+  text-align: center;
+}
+
+.MainLogo {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+@media screen and (max-width: 650px) {
+}
