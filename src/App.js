@@ -1,4 +1,4 @@
-// Show off time!
+// Leger med forskellige teknikker
 
 import { React, useState } from "react";
 import sea from "./Pictures/sea.jpg";
